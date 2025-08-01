@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.section_header {
+  font-size: 28px;
+  font-weight: 600;
+  color: #00d4ff;
+  margin-bottom: 15px;
+}
+
+.section_content {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.section_content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.section_content th,
+.section_content td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.section_content th {
+  background-color: #121212;
+  color: #00d4ff;
+}
+
+.section_content td {
+  background-color: #2a2a2a;
+}
+
+.section_content td.bgRed {
+  color: #ff7a7a;
+}
+
+.userCount {
+  margin-top: 15px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* Dropdown styling */
+.statusSelect {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background-color: #00d4ff;
+  color: #121212;
+  font-weight: 600;
+  border: none;
+}
+
+/* Action links */
+.extendRequest {
+  padding: 6px 10px;
+  background-color: #00d4ff;
+  color: #121212;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.extendRequest:hover {
+  background-color: #00b6e0;
+  box-shadow: 0 0 8px #00d4ff;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
