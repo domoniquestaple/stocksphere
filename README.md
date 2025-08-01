@@ -69,7 +69,7 @@ http://localhost:8000/login.php
 ## 🔐 Default Admin Credentials
 Email: admin@ims.com
 
-Password: admin123 (or your defined password)
+Password: myadmin123 (or your defined password)
 
 ---
 
